@@ -6,17 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Khyat's Journal</title>
     <link rel ="shortcut icon" type="image/png" href="download.png">
+    <style>
+        title{
+            color: lightblue;
+        }
+    </style>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
     <header>
-        <p>Test</p>
-       <div>Journal Days</div>
+       <div class="index">Journal Days</div>
         
-       <nav>
+       <nav class="box">
            <ul>
-               <li><a href="#11th-April">11th April</a></li>
-               <li><a href="#10th-April">10th April</a></li>
-               <li><a href="#9th-April">9th April</a></li>
+               <li class="navi"><a href="#11th-April">11th April</a></li>
+               <li class="navi"><a href="#10th-April">10th April</a></li>
+               <li class="navi"><a href="#9th-April">9th April</a></li>
            </ul>
        </nav>
        
@@ -24,18 +29,18 @@
     <hr>
 
     <main>
-        <h1>Khyat Doshi's Journal</h1>
+        <h1 style="color: navy;">Khyat Doshi's Journal</h1>
 
-        <h2 id="11th-April"> 11th April - Sunday</h2>
+        <h2 class="date" id="11th-April"> 11th April - Sunday</h2>
         <h3>Filing taxes and doing Lab 2</h3>
         <section> Day's High/Low Lights 
             <ol>
                 <li>Woke up - 11am</li>
                 <li>Had a light lunch - 1 pm</li>
                 <li> Played SpikeBall with some friends - 4pm
-                <img src="spikeball-rookie-h.jpeg" width="250" alt="SpikeBall"></li>
+                <br><img id="image" src="spikeball-rookie-h.jpeg" width="250" alt="SpikeBall"></li>
                 <li> Started doing Lab 2 and built an <b>HTML</b> file - 6pm
-                <img src="HTML.png" width="250" alt="Lab 2"></li>
+                <br><img id="image" src="HTML.png" width="250" alt="Lab 2"></li>
             </ol>
         </section>
 
@@ -54,13 +59,13 @@
         
 
         <hr>
-        <h2 id="10th-April"> 10th April - Saturday </h2>
+        <h2 class="date" id="10th-April"> 10th April - Saturday </h2>
         <h3><em> I really feel like writing in italics today - Beach Day </em></h3>
 
         <section>Day's High/Lowlights
             <ol>
                 <li>Went to the beach - 11am
-                <video width="320" height="240" controls> <source src="beach.mp4" type="video/mp4"></video></li>
+                <br><video class="video" width="320" height="240" controls> <source src="beach.mp4" type="video/mp4"></video></li> 
                 <li>Had Indian Food- 2pm</li>
                 <li>Took a nice nap while listening to music</li>
                 <li> Watched a nice movie - <i>Italian</i> </li>
@@ -78,7 +83,7 @@
         </section>
         
         <hr>
-        <h2 id="9th-April"> 9th April - Friday </h2>
+        <h2 class="date" id="9th-April"> 9th April - Friday </h2>
         <h3><strong>Friday's the best day of the week because I get to chill</strong></h3>
         
         <section> Day's Todo's
@@ -94,9 +99,9 @@
             <li>Watched Falcon and the Winter Soldier Episode 4 - <strong>OH MY GOD! CAPTAIN AMERICA IS BAD!!??</strong></li>
             <li>Held Office Hours</li>
             <li>Sat at the hammocks
-            <img src="hammocks.jpeg" width="300" alt="hammocks"></li>
+            <br><img id="image" src="hammocks.jpeg" width="300" alt="hammocks"></li>
             <li><em>Pizza Time!!!!</em>
-            <img src="Classic-Homemade-Pizza-Dough-close.jpeg" width="250" alt="Pizza"></li>
+            <br><img id="image" src="Classic-Homemade-Pizza-Dough-close.jpeg" width="250" alt="Pizza"></li>
         </ul>
         </section>
 
@@ -153,12 +158,12 @@
 
 
 <h2>Feedback on this page- select all that apply</h2> <br>
-<input type="checkbox" id="feedback1" name="feedback1" value="Features">
-  <label for="feedback1"> Could have used the features of HTML better</label><br>
-  <input type="checkbox" id="feedback2" name="feedback2" value="Aesthetics">
-  <label for="feedback2"> Aesthetics could have been better</label><br>
-  <input type="checkbox" id="feedback3" name="feedback3" value="Formatting">
-  <label for="feedback3"> Formatting could be cleaner</label>
+<input type="checkbox" id="feedback" name="feedback1" value="Features">
+  <label for="feedback"> Could have used the features of HTML better</label><br>
+  <input type="checkbox" id="feedback" name="feedback2" value="Aesthetics">
+  <label for="feedback"> Aesthetics could have been better</label><br>
+  <input type="checkbox" id="feedback" name="feedback3" value="Formatting">
+  <label for="feedback"> Formatting could be cleaner</label>
   <input type="submit" value="Submit">
 </form>
     </footer>

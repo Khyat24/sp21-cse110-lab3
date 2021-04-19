@@ -1,0 +1,90 @@
+.box {
+    background-color: #15a8e299;
+    height: 5rem;
+    width: max-width;
+    padding: 20px;
+
+}
+
+nav {
+    color: rgb(13, 7, 99);
+}
+
+a {
+    color: black;
+}
+
+.index {
+    color: navajowhite;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:navy;
+    height: auto;
+    width: auto;
+    padding: 2px;
+    
+}
+
+body {
+    background-color: rgba(15, 199, 168, 0.397);
+    border-style: dashed;
+    border-left-width: thin;
+    border-right-width: thin;
+    border-top-width: 2vmax;
+    border-bottom-width: 2vmax;
+    border-color: darkblue;
+    border-radius: 0;
+}
+
+
+video {
+    position: relative;
+    border-style: dotted;
+}
+
+#image {
+    position: relative;
+    border-style: outset;
+    border-color: blueviolet;  
+    padding-left: 0.1cm;
+    padding-right: 0.1cm;
+    padding-top:0.3cm;
+    padding-bottom: 0.3cm;
+    background-color: #8a2be2;  
+}
+
+header + footer{
+    text-align: justify;
+    text-decoration:darkkhaki;
+}
+
+hr {
+    border-style:dotted;
+    border-width: 0.3rem;
+    border-color: hsla(255, 118, 7, 0.8);
+}
+
+* {
+    text-align: justify; 
+}
+
+p {
+    text-decoration: indigo;
+}
+
+h2.date { /* date color*/
+    color: darkred;
+}
+
+header  {
+ display: flex;
+}
+
+footer {
+    display: inline grid;
+}
+
+ol,ul > li {
+    color: rgb(227, 10, 247);
+}
+
